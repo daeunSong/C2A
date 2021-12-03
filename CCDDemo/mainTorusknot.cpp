@@ -50,8 +50,8 @@ int* feature_ids;
 
 
 // good
-static const char* modelFile1 = "../tri_models/bunny_noholes.tri";
-static const char* modelFile2 = "../tri_models/bunny_noholes.tri";
+static const char* modelFile1 = "../models/bunny_noholes.tri";
+static const char* modelFile2 = "../models/bunny_noholes.tri";
 
 static const char* aniPath2 = "../models/torusknot2.ani";
 static const char* aniPath1 = "../models/torusknot1.ani";

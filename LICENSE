@@ -1,4 +1,4 @@
-/*************************************************************************\
+
 
   Copyright 2009 The Ewha Womans University.
   All Rights Reserved.
@@ -25,7 +25,7 @@
   The authors may be contacted via:
 
   Mail:                Y. J. Kim, Xinyu Zhang, Min Tang
-		       Computer Graphics Lab                       
+	Address:             Computer Graphics Lab
                        Department of Computer Science and Engineering
                        Ewha Womans University
                        11-1 Daehyun-Dong Seodaemun-gu, Seoul, Korea 120-750
@@ -38,19 +38,18 @@
                    
 
 
-\**************************************************************************/
-The code also constructed by and got help from Liangjun Zhang and Xin Huang.
+  The code is also constructed by and got help from Liangjun Zhang and Xin Huang.
 
-Those authors may be contacted via:
-Liangjun Zhang
-EMail:   zlj@cs.unc.edu
-Address: Computer Science Dept. UNC Chapel Hill
-         Office 355 Sitterson Hall, CB 3175, Chapel Hill, NC 27599
+  Those authors may be contacted via:
+  Liangjun Zhang
+  EMail:   zlj@cs.unc.edu
+  Address: Computer Science Dept. UNC Chapel Hill
+           Office 355 Sitterson Hall, CB 3175, Chapel Hill, NC 27599
 
-Xin Huang
-EMail:   huangxin@cs.unc.edu
-Address: Computer Science Dept. UNC Chapel Hill
-         Office 341 Sitterson Hall, CB 3175, Chapel Hill, NC 27599
+  Xin Huang
+  EMail:   huangxin@cs.unc.edu
+  Address: Computer Science Dept. UNC Chapel Hill
+           Office 341 Sitterson Hall, CB 3175, Chapel Hill, NC 27599
 
 
 

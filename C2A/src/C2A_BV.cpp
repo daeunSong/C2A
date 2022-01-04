@@ -14,9 +14,9 @@ Ewha womans University
 #include <RectDist.h>
 #include <OBB_Disjoint.h>
 
-#include "C2A/C2A_BV.h"
-#include "C2A/C2A_RectDist.h"
-#include "C2A/C2A_Tri.h"
+#include "C2A_BV.h"
+#include "C2A_RectDist.h"
+#include "C2A_Tri.h"
 
 C2A_BV::C2A_BV()
 : BV()

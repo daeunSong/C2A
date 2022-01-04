@@ -162,7 +162,7 @@ class Quaternion {
     inline void Set_Y( Real y ) { val[1] = y; }
     inline void Set_Z( Real z ) { val[2] = z; }
     inline void Set_W( Real w ) { val[3] = w; }
-    inline void Set_Value( const Real v[] );
+//    inline void Set_Value( const Real v[] );
     
 	// Sets the quaternion to be [x,y,z,0]
     inline void Set_Value( const Coord3D& t );
@@ -541,23 +541,23 @@ inline Real Coord3D::Length_Sq( ) const
 inline Real Coord3D::Length( ) const
 { return sqrt( val[0] * val[0] + val[1] * val[1] + val[2] * val[2] ); }
 
-#ifndef min
-#define min(a,b) a>b?b:a
-#define max(a,b) a>b?a:b
+#ifndef min_
+#define min_(a,b) a>b?b:a
+#define max_(a,b) a>b?a:b
 #endif
 
 inline void Coord3D::Min( Coord3D& mn )
 {
-    mn.Set_X( min( mn.X(), val[0] ) );
-    mn.Set_Y( min( mn.Y(), val[1] ) );
-    mn.Set_Z( min( mn.Z(), val[2] ) );
+    mn.Set_X( min_( mn.X(), val[0] ) );
+    mn.Set_Y( min_( mn.Y(), val[1] ) );
+    mn.Set_Z( min_( mn.Z(), val[2] ) );
 }
 
 inline void Coord3D::Max( Coord3D& mx )
 {
-    mx.Set_X( max( mx.X(), val[0] ) );
-    mx.Set_Y( max( mx.Y(), val[1] ) );
-    mx.Set_Z( max( mx.Z(), val[2] ) );
+    mx.Set_X( max_( mx.X(), val[0] ) );
+    mx.Set_Y( max_( mx.Y(), val[1] ) );
+    mx.Set_Z( max_( mx.Z(), val[2] ) );
 }
 
 inline void Coord3D::Min_Max( Coord3D& mn, Coord3D& mx )

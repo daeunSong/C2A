@@ -43,7 +43,7 @@
 #include <string.h>
 #include "PQP.h"
 #include "MatVec.h"
-#include "C2A/C2A_Internal.h"
+#include "C2A_Internal.h"
 
 // If this is set, build routines will use covariance matrix 
 // and mean finding code from RAPID 2.

@@ -1,10 +1,9 @@
-#include "C2A/interpmotion.h"
+#include "InterpMotion.h"
 #include "MatVec.h"
 
 #include <iostream>
 #include <string>
 
-#include "gl/glut.h"
 #include "TriDist.h"
 
 

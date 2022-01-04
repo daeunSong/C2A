@@ -8,9 +8,9 @@
 #ifndef INTERP_MOTION_H
 #define INTERP_MOTION_H
 
-#include "C2A/LinearMath.h"
-#include <PQP_compile.h>
-#include "C2A/c2a_bv.h"
+#include "LinearMath.h"
+#include <PQP_Compile.h>
+#include "C2A_BV.h"
 #include <string>
 
 #include <PQP.h>
@@ -226,4 +226,4 @@ public:
 };
 
 
-#endif;
+#endif

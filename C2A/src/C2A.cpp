@@ -3,20 +3,21 @@
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
+#include <cstring>
 using namespace std;
 
 
 
-#include "C2A/C2A.h"
+#include "C2A.h"
 
 #include "BVTQ.h"
 #include "Build.h"
 #include "MatVec.h"
 #include "GetTime.h"
 #include "TriDist.h"
-#include "C2A/ListTri.h"
-#include "C2A/InterpMotion.h"
-#include "C2A/C2A_Internal.h"
+#include "ListTri.h"
+#include "InterpMotion.h"
+#include "C2A_Internal.h"
 
 
 

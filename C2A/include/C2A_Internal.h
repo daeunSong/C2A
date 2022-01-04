@@ -22,8 +22,8 @@
 #ifndef __C2A_Internal_h
 #define __C2A_Internal_h
 
-#include "C2A/C2A_Tri.h"
-#include "C2A/C2A_BV.h"
+#include "C2A_Tri.h"
+#include "C2A_BV.h"
 #include <vector>
 
 

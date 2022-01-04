@@ -45,9 +45,9 @@
 #include "MatVec.h"
 #include "GetTime.h"
 #include "TriDist.h"
-#include "C2A/C2A_Internal.h"
-#include "C2A/C2A.h"
-#include "C2A/LinearMath.h"
+#include "C2A_Internal.h"
+#include "C2A.h"
+#include "LinearMath.h"
 
 
 
@@ -425,14 +425,14 @@ C2A_Model::MemUsage(int msg)
 
   int total_mem = mem_bv_list + mem_tri_list + sizeof(C2A_Model);
 
-  if (msg) 
-  {
-    fprintf(stderr,"Total for model %x: %d bytes\n", this, total_mem);
-    fprintf(stderr,"BVs: %d alloced, take %d bytes each\n", 
-            num_bvs, sizeof(C2A_BV));
-    fprintf(stderr,"Tris: %d alloced, take %d bytes each\n", 
-            num_tris, sizeof(C2A_Tri));
-  }
+//  if (msg)
+//  {
+//    fprintf(stderr,"Total for model %x: %d bytes\n", this, total_mem);
+//    fprintf(stderr,"BVs: %d alloced, take %d bytes each\n",
+//            num_bvs, sizeof(C2A_BV));
+//    fprintf(stderr,"Tris: %d alloced, take %d bytes each\n",
+//            num_tris, sizeof(C2A_Tri));
+//  }
   
   return total_mem;
 }

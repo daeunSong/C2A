@@ -2,18 +2,18 @@
 #include <stdlib.h>
 #include <math.h>
 #include <GL/glut.h>
-#include "CCDDemo/model.h"
+#include "model.h"
 #include "PQP.h"
 #include "MatVec.h"
-#include "Stopwatch.h"
+//#include "stopwatch.h"
 #include <iostream>
 #include <fstream>
-#include "C2A/LinearMath.h"
-#include "C2A/C2A.h"
+#include "LinearMath.h"
+#include "C2A.h"
 
 //Real th_ppd=0.0;
 
-#include "mainccd.h"
+#include "ccd.h"
 
 int width=1280;
 int height=960;
@@ -24,7 +24,7 @@ C2A_Model *object1_tested,*object2_tested;
 Model     *object1_drawn, *object2_drawn;
 bool Flag_New=0;
 
-StopwatchWin32 timer;
+//Stopwatch timer;
 float timing;
 
 int animating = 1;
@@ -305,8 +305,8 @@ cb_display()//Display
 		int flag=2;
 
 
-		timer.Reset(); 
-		timer.Start();
+//		timer.Reset();
+//		timer.Start();
 		C2A_Result result_CA;
 
 		for(int iTest=0;iTest<nTests;iTest++) 
@@ -321,8 +321,8 @@ cb_display()//Display
 		}
 
 
-		timer.Stop();
-		tframes[iframe]=timer.GetTime()/nTests;
+//		timer.Stop();
+//		tframes[iframe]=timer.GetTime()/nTests;
 
 
 		iterframes[iframe]=nItr;
@@ -405,7 +405,7 @@ cb_display()//Display
 	  glutPostRedisplay();
 }
 
-void main(int argc, char **argv)
+int main(int argc, char **argv)
 {
   // init glut
 
@@ -414,7 +414,7 @@ void main(int argc, char **argv)
 
 	glutInitWindowSize(720, 480);
 	glutInitWindowPosition(550,400);
-	glutCreateWindow("CCD using PQP");
+	glutCreateWindow("CCD using C2A");
 
 	// set OpenGL graphics state -- material props, perspective, etc.
 

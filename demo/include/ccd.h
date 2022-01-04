@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <GL/glut.h>
-#include "CCDDemo/model.h"
+#include "model.h"
 
-#include <C2A/C2A.h>
-#include <C2A/InterpMotion.h>
+#include "C2A.h"
+#include "InterpMotion.h"
 #include <iostream>
 #include <fstream>
 
-#include <C2A/LinearMath.h>
+#include "LinearMath.h"
 
 
 #define GetContactNumber true
